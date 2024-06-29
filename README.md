@@ -1,3 +1,19 @@
+# Project Title
+
+CREATE AND MINT TOKEN
+
+## Description
+
+write a smart contract to create your own ERC20 token and deploy it using HardHat or Remix. Once deployed, you should be able to interact with it
+
+## Getting Started
+
+
+### Installing
+
+
+
+### Executing program
 Step 1: Navigate to Project Directory
 Open your terminal and navigate to the project directory where your Solidity contract is located.
 
@@ -38,3 +54,15 @@ Once the contract is deployed, you can interact with its functions by entering t
 Congratulations! You have successfully connected your local Hardhat network with Remix and deployed/interacted with a contract.
 
 Please adjust the code provided earlier to match your specific contract requirements. Add relevant information and code within the Token contract as needed.
+
+
+## Authors
+
+Contributors names and contact info
+
+Tushar Kathuria  8595408969
+
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details
