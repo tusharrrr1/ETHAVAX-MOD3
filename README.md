@@ -48,7 +48,7 @@ If you encounter any issues or have any questions, you can refer to the project'
 
 ## Authors
 
-* -[Umar Khan](github.com/UmarKhan19)
+* -[Tushar Kathuria](https://github.com/tusharrrr1)
 
 
 ## License
