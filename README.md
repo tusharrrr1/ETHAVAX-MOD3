@@ -1,68 +1,56 @@
-# Project Title
+# MyToken Contract
 
-CREATE AND MINT TOKEN
-
+The MyToken contract is an ERC20-compliant token contract that allows users to create and manage their own token. This contract provides functionalities such as token minting, transferring tokens between addresses, and burning tokens.
 ## Description
 
-write a smart contract to create your own ERC20 token and deploy it using HardHat or Remix. Once deployed, you should be able to interact with it
+The purpose of this project is to enable users to have full control over their own token by creating a customizable ERC20 token contract. Users can set the name, symbol, and total supply of their token during deployment. The contract owner has the ability to mint new tokens and distribute them to specific addresses. Users can transfer their tokens to other addresses, allowing for peer-to-peer transactions. Additionally, users can burn their tokens if they no longer need them, effectively reducing the token supply.
 
+By providing a flexible and customizable token contract, this project empowers individuals, organizations, and developers to create and manage their own tokens on the Ethereum blockchain. This token can be used for various purposes, such as creating a reward system, facilitating in-app transactions, or launching a new cryptocurrency.
 ## Getting Started
-
 
 ### Installing
 
+To run the contract, follow these steps:
 
+1. Install the project dependencies by running the following command:
+
+   ```
+   npm install
+   ```
+2. Start a blockchain locally by running the command: 
+   ```
+   npx hardhat node
+   ```
+3. Test the contract by running the command: 
+   ```
+   npx hardhat test
+   ```
+
+4. Deploy the UmarContract smart contract by running the deployment script:
+
+   ```
+   npx hardhat run scripts/deploy.js --network localhost
+   ```
 
 ### Executing program
-Step 1: Navigate to Project Directory
-Open your terminal and navigate to the project directory where your Solidity contract is located.
 
-Step 2: Run npx hardhat node Command
-In the terminal, run the following command to start your local Hardhat network:
+* Go to [remix](remix.ethereum.org) IDE.
+* Paste the contract in the IDE.
+* Compile the contract.
+* Select the `Dev - Hardhat Provider` as the environment in Deploy tab.
+* Paste you contract address in remix and click on `At Address`.
+* Play with your contract in remix!!
 
-npx hardhat node
+## Help
 
-This will spin up a local Ethereum network with accounts and gas provided for testing purposes. Make sure you have Hardhat installed (npm install --global hardhat).
-
-Step 3: Open Remix IDE
-Open your web browser and go to Remix IDE.
-
-Step 4: Connect with Local Host
-In Remix IDE, click on the "Connect to Localhost" button in the top-right corner. This will establish a connection to your local Hardhat network.
-
-Step 5: Create a Contract
-In Remix IDE, click on the "+" button in the left panel to create a new file. Enter the Solidity code for your contract or .sol file in the editor.
-
-Example Contract:
-
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.19;
-
-contract Token {
-    // Contract code here...
-}
-Step 6: Compile the Contract
-In the Remix IDE, switch to the "Solidity Compiler" tab in the left panel. Click on the "Compile" button to compile the contract. Make sure the compiler version matches the pragma statement in your contract.
-
-Step 7: Deploy and Interact with the Contract
-Switch to the "Deploy & Run Transactions" tab in the Remix IDE. From the "Environment" dropdown, select "Injected Web3" to connect to your local Hardhat network.
-
-Click on the contract name under the "Deployed Contracts" section. You will see the contract's functions and variables. You can deploy the contract by clicking the "Deploy" button.
-
-Once the contract is deployed, you can interact with its functions by entering the required parameters and clicking the respective function buttons.
-
-Congratulations! You have successfully connected your local Hardhat network with Remix and deployed/interacted with a contract.
-
-Please adjust the code provided earlier to match your specific contract requirements. Add relevant information and code within the Token contract as needed.
+If you encounter any issues or have any questions, you can refer to the project's documentation or seek help from the project contributors.
 
 
 ## Authors
 
-Contributors names and contact info
-
-Tushar Kathuria  8595408969
+* -[Umar Khan](github.com/UmarKhan19)
 
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE.md file for details
+This code is released under the MIT License. Feel free to use, modify, and distribute it as per the terms of the license.
